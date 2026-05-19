@@ -44,3 +44,12 @@ For discussions or suggestions, reach out:
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+curl -X POST "https://api.groq.com/openai/v1/chat/completions" \
+
+     -H "Authorization: Bearer gsk_3wr3IOjyREfLtSMrDKmcWGdyb3FYpCy5GCydEeuX7" \
+
+     -H "Content-Type: application/json" \
+
+     -d '{"model": "llama-3.3-70b-versatile", "messages": [{"role": "user", "content": "hi"}]}'
